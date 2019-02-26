@@ -7,15 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link rel="manifest" href="/manifest.json">
-    
+
 </head>
 <body>
+
+    <!-- HEADER -->
     <header>
-        <div>
+        <div id="cont_menu">
+            <img id="menu_icon" src="./img/baseline_menu_black_18dp.png">
+            <!-- <div id="teste"></div> -->
+        </div>
+        <!-- JS Menu -->
+
+
+        <script type="text/javascript" src="menu.js">
+        </script>
+
+
+        <div id="cont_H1">
             <h1 id="h_text">Revolução Industrial</h1>
         </div>
     </header>
+
+    <!-- MAIN -->
     <main>
+
+        <!-- TEXTO -->
         <div id="cont_text-lt">
             <h2>O que foi?</h1>
             <p id="revolucao_text">
@@ -62,22 +79,8 @@
             Industrial. O computador, o fax, a engenharia genética, o celular seriam algumas das inovações dessa época.
             </p>
         </div>
-
-        
     </main>
-    
+
 </body>
-<script>
 
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
-    .then(function () {
-        console.log('service worker registered');
-    })
-    .catch(function () {
-        console.warn('service worker failed');
-    });
-}
-
-</script>
 </html>
