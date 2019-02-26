@@ -1,0 +1,15 @@
+{
+    "name": "Revolução Industrial",
+    "short_name": "Revolução Industrial",
+    "theme_color": "#3E2723",
+    "background_color": "#3E2723",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "./img/logo.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      }
+    ]
+  }
