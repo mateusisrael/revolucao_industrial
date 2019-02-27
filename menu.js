@@ -12,7 +12,7 @@ function menuClicado() {
 	//  mil vzs no menu serão criadas mil divs.
 	// 	preciso definir um limite.
 	// Estilizando a div criada na função
-	menu_aberto.style = "position: fixed; width: 190%; height: 200%; background-color: blue;";
+	menu_aberto.style = "position: fixed; width: 190%; height: 200%; background-color: #3E2723;";
 }
 
 

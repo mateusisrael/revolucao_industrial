@@ -3,19 +3,21 @@
 
     /* Header */
 header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 12vh;
     background-color: #3E2723/*#263238*/;
-    display: flex; flex-direction: row;
+    display: flex; justify-content: center; align-items: center;
 }
 
 #cont_menu{
     display: flex; justify-content: center; align-items: center;
-    background-color: white;
+    /* background-color: white; */
+    margin-left: 3%;
 
 }#menu_icon{
     width: 36px;
+
 }
 #cont_H1{
     width: 80%;
@@ -34,7 +36,7 @@ header{
 main{
     height: 100%;
     padding: 5%;
-    padding-top: 100px;
+    padding-top: 80px;
     background-color: white; 
     display: flex; justify-content: center;
 }
@@ -49,20 +51,36 @@ h2{
     font-size: 23px;
     margin-top: 3px;
     color: #37474F;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
-#revolucao_text{
+.revolucao_text{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #37474F;
     font-size: 16px;
     margin-top: 3px;
 }
 
-/*#teste{
-    background-color: yellow;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-}*/
+
+/*
+    Responsivo
+*/
+
+@media only screen and (min-width: 425px) {
+    #cont_text-lt{
+        /* width: 382px; */
+        width: 70%;
+    }
+
+}
+
+@media only screen and (min-width: 796px) {
+    #cont_text-lt{
+        width: 501px;
+    }
+
+    .revolucao_text{
+        font-size: 19px;
+    }
+}
